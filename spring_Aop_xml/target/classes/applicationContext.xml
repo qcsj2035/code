@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+            <!--1.目标对象-->
+            <bean id="userService" class="cn.itcast.service.impl.UserServiceImpl"></bean>
+            <!--2.切面对象-->
+            <bean id="logAop" class="cn.itcast.web.LogAop"></bean>
+            <bean id="logAop1" class="cn.itcast.web.LogAop"></bean>
+            <!--3.Aop的核心配置对象(织入)
+                     proxy-target-class="true"默认为Cglib代理
+                    proxy-target-class="false" jdk代理
+            -->
+            <aop:config proxy-target-class="true">
+            <!--切入点表达式-->
+                <aop:pointcut id="pid" expression="execution(* cn.itcast.service.impl.*.*(..))"/>
+            <!--配置切面-->
+                <aop:aspect id="a1" ref="logAop">
+<!--                    <aop:before method="before" pointcut-ref="pid"></aop:before>-->
+<!--                    <aop:after-returning method="afterRunning" pointcut-ref="pid"></aop:after-returning>-->
+<!--                    <aop:after-throwing method="throwing" pointcut-ref="pid"></aop:after-throwing>-->
+<!--                    <aop:after method="after" pointcut-ref="pid"></aop:after>-->
+                    <aop:around method="round" pointcut-ref="pid"></aop:around>
+                </aop:aspect>
+                <aop:aspect id="a2" ref="logAop1"></aop:aspect>
+            </aop:config>
+            <!---->
+            <!---->
+</beans>

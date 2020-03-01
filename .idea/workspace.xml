@@ -179,7 +179,7 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal -Dfile.encoding=GB2312" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="600" />
     <option name="y" value="235" />
     <option name="width" value="1225" />
@@ -437,7 +437,7 @@
       <workItem from="1582984052590" duration="4265000" />
       <workItem from="1583023759871" duration="2921000" />
       <workItem from="1583039908720" duration="346000" />
-      <workItem from="1583040280644" duration="3342000" />
+      <workItem from="1583040280644" duration="4046000" />
     </task>
     <task id="LOCAL-00001" summary="本地工程">
       <created>1583062528938</created>
@@ -482,7 +482,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48887000" />
+    <option name="totallyTimeSpent" value="49591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -505,7 +505,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32791728" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3293944" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3264402" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32547864" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />

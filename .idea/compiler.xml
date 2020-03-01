@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springday01_IOC" />
+        <module name="springmvc_day02_02" />
+        <module name="springday03_proxy" />
+        <module name="springday02_IOC_annotation" />
+        <module name="springmvc_day01_01" />
+        <module name="springmvc_day03_02" />
+        <module name="springmvc_day03_01" />
+        <module name="spring_Aop_xml" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="day02_02" target="1.8" />
+      <module name="maven01" target="1.5" />
+      <module name="spring_Aop_xml" target="1.5" />
+      <module name="spring_IOC" target="1.5" />
+      <module name="springday01_IOC" target="1.5" />
+      <module name="springday02_IOC_annotation" target="1.5" />
+      <module name="springday03_proxy" target="1.5" />
+      <module name="springmvc_day01_01" target="1.8" />
+      <module name="springmvc_day02_02" target="1.8" />
+      <module name="springmvc_day03_01" target="1.7" />
+      <module name="springmvc_day03_02" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
